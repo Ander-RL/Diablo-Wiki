@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/nav_about_game"
+            android:icon="@drawable/ic_menu_about_game"
+            android:title="@string/nav_about_game"/>
+        <item
+            android:id="@+id/nav_lore"
+            android:icon="@drawable/ic_menu_lore"
+            android:title="@string/nav_lore" />
+        <item
+            android:id="@+id/nav_characters"
+            android:icon="@drawable/ic_menu_characters"
+            android:title="@string/nav_characters" />
+        <item
+            android:id="@+id/nav_items"
+            android:icon="@drawable/ic_menu_items"
+            android:title="@string/nav_items" />
+        <item
+            android:id="@+id/nav_talents"
+            android:icon="@drawable/ic_menu_talents"
+            android:title="@string/nav_talents" />
+</menu>

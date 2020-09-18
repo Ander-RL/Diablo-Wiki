@@ -28,7 +28,20 @@
         \nThe main production roles were handled by Matthew Householder and Bill Roper.
 
         \n\nAn expansion, Diablo II: Lord of Destruction, was released in 2001.</string>
+
     <string name="header_intro">Introduction to Diablo Saga</string>
     <string name="contentDescription_logo1">Initial image content_main</string>
     <string name="contentDescription_logo2">Second image content_main</string>
+    <string name="nav_about_game">About the game</string>
+    <string name="nav_lore">Lore</string>
+    <string name="nav_lore_diablo1">Diablo I</string>
+    <string name="nav_lore_diablo2">Diablo II</string>
+    <string name="nav_characters">Characters</string>
+    <string name="nav_items">Items</string>
+    <string name="nav_talents">Talents</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="place_holder">Place holder</string>
 </resources>
