@@ -10,17 +10,17 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/nav_header_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:contentDescription="@string/header_image"
         app:srcCompat="@drawable/diablo_logo_cabeza" />
 
-    <TextView
+    <!--<TextView
         android:id="@+id/title_nav_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />-->
 
 </LinearLayout>
