@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         toggle.syncState();
         //Set custom logo for toolbar button for drawer
         toolbar.setNavigationIcon(R.drawable.ic_toolbar_nav_logo);
-        //Set a listener for the navigationView. Listener is the activity?
-        // Because onNavigationItemSelected is in the activity?
+        //Set a listener for the navigationView.
+        // Because the listener is the activity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         if (navigationView != null) {
             navigationView.setNavigationItemSelectedListener(MainActivity.this);
@@ -74,11 +74,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             mtextView2.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
             mtextView3.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
         }
-    }
-
-    //Displays a message on screen. This is a place holder for actions.
-    public void displayToast(String message) {
-        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -115,5 +110,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             default:
                 return false;
         }
+    }
+
+    //Displays a message on screen. This is a place holder for actions.
+    public void displayToast(String message) {
+        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
     }
 }
