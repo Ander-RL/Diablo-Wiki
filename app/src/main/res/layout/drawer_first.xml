@@ -9,7 +9,7 @@
     tools:openDrawer="start">
 
     <include
-        layout="@layout/activity_main"
+        layout="@layout/activity_first"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
@@ -22,7 +22,7 @@
         android:background="@color/blackBackground"
         app:itemTextColor="@android:color/white"
         app:itemIconTint="@android:color/white"
-        app:headerLayout="@layout/drawer_nav_header_main"
+        app:headerLayout="@layout/drawer_nav_header_first"
         app:menu="@menu/nav_drawer_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
