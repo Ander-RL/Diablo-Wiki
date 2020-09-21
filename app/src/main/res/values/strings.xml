@@ -6,30 +6,54 @@
         Though I know the way, I know not what perils will arise to hinder my journey, and as I pass through the first gate,
         I know that the better part of my soul will remain behind… forever.\" \n\n— The Dark Wanderer </string>
     <string name="first_intro">Diablo was a best seller series and following its popularity,
-        although unofficial, was an expansion pack, entitled Diablo: Hellfire,
+        although unofficial, was an expansion pack, entitled
+        <a href="https://diablo.fandom.com/wiki/Diablo:_Hellfire">Diablo: Hellfire</a>,
         which was released by Sierra Entertainment in 1997. \nThis was followed by a true sequel,
-        Diablo II, which was released by Blizzard in 2000.
-        Diablo (otherwise known as Diablo I) is an action-adventure game developed by Blizzard North and released by Blizzard Entertainment on December 31, 1996.
+        <a href="https://diablo.fandom.com/wiki/Diablo_II">Diablo II</a>, which was released by Blizzard in 2000.
+        Diablo (otherwise known as Diablo I) is an action-adventure game developed by
+        <a href="https://diablo.fandom.com/wiki/Blizzard_North">Blizzard North</a> and released by
+        <a href="https://diablo.fandom.com/wiki/Blizzard_Entertainment">Blizzard Entertainment</a> on December 31, 1996.
 
-        \n\nSet in the kingdom of Khanduras that is located in the world of Sanctuary,
-        Diablo has the player take control of a lone hero or heroine starting outside of their house in town as they set out on a journey to rid the town of Tristram of the titular Lord of Terror,
-        and his horde of demon minions lurking in the shadows underground beneath the Cathedral at the very edge of town.
+        \n\nSet in the kingdom of
+        <a href="https://diablo.fandom.com/wiki/Khanduras">Khanduras</a> that is located in the world of
+        <a href="https://diablo.fandom.com/wiki/Sanctuary" >Sanctuary</a>,
+        Diablo has the player take control of a lone hero or heroine starting outside of their house in town as they set out on a journey to rid the town of
+        <a href="https://diablo.fandom.com/wiki/Tristram">Tristram</a> of the titular <a href="https://diablo.fandom.com/wiki/Diablo">Lord of Terror</a>,
+        and his horde of demon minions lurking in the shadows underground beneath the
+        <a href="https://diablo.fandom.com/wiki/Diablo_I_Walkthrough#The_Cathedral.2FDungeon">Cathedral</a> at the very edge of town.
     </string>
     <string name="first_intro2">
-        \n\nDiablo II, the sequel to the popular game Diablo, is a dark, fantasy-themed action role-playing game in a hack-and-slash or "dungeon roaming" style.
-        After the Stress Test in spring 2000, it was released for both Microsoft Windows and Mac OS in the summer 2000 by Blizzard Entertainment.
-        Diablo II was developed by Blizzard North.
+        \n\n<a href="https://diablo.fandom.com/wiki/Diablo_II">Diablo II</a>
+        , the sequel to the popular game
+        <a href="https://diablo.fandom.com/wiki/Diablo_(Game)">Diablo</a>
+        , is a dark, fantasy-themed action role-playing game in a hack-and-slash or "dungeon roaming" style.
+        After the Stress Test in spring 2000, it was released for both Microsoft Windows and Mac OS in the summer 2000 by
+        <a href="https://diablo.fandom.com/wiki/Blizzard_Entertainment">Blizzard Entertainment</a>.
+        <a href="https://diablo.fandom.com/wiki/Diablo_(Game)">Diablo</a> was developed by Blizzard North.
 
-        \n\nBy April 2001, Diablo II had become one of the most popular online games of all time.
-        Major factors that contributed to Diablo II\'s success include what fans found to be addictive hack-and-slash gameplay and free access to Battle.net.
-        Diablo II may be played as a single-player game, multi-player via a LAN, or multi-player via Battle.net, with the last option being the most popular one.
+        \n\nBy April 2001,
+        <a href="https://diablo.fandom.com/wiki/Diablo_II">Diablo II</a>
+        had become one of the most popular online games of all time.
+        Major factors that contributed to
+        <a href="https://diablo.fandom.com/wiki/Diablo_II">Diablo II\'s</a>
+        success include what fans found to be addictive hack-and-slash gameplay and free access to
+        <a href="https://diablo.fandom.com/wiki/Battle.net">Battle.net</a>.
+        <a href="https://diablo.fandom.com/wiki/Diablo_II">Diablo II</a>
+        may be played as a single-player game, multi-player via a LAN, or multi-player via
+        <a href="https://diablo.fandom.com/wiki/Battle.net">Battle.net</a>, with the last option being the most popular one.
 
-        \n\nThe game was conceptualized and designed by Stieg Hedlund, along with Blizzard North founders David Brevik, Max and Erich Schaefer acting as project heads for the other disciplines.
+        \n\nThe game was conceptualized and designed by
+        <a href="https://diablo.fandom.com/wiki/Stieg_Hedlund">Stieg Hedlund</a>, along with
+        <a href="https://diablo.fandom.com/wiki/Blizzard_North">Blizzard North</a>
+        David Brevik, Max and Erich Schaefer acting as project heads for the other disciplines.
         The main production roles were handled by Matthew Householder and Bill Roper.
 
-        \n\nAn expansion, Diablo II: Lord of Destruction, was released in 2001.</string>
+        \n\nAn expansion,
+        <a href="https://diablo.fandom.com/wiki/Diablo_II:_Lord_of_Destruction">Diablo II: Lord of Destruction</a>
+        , was released in 2001.
+    </string>
 
-    <string name="header_intro">About the Diablo Saga</string>
+    <string name="header_intro">About Diablo</string>
     <string name="contentDescription_logo1">Initial image content_main</string>
     <string name="contentDescription_logo2">Second image content_main</string>
     <string name="nav_about_game">About the game</string>

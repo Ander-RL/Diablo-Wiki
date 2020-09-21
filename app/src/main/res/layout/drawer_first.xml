@@ -18,11 +18,12 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:fitsSystemWindows="true"
         android:background="@color/blackBackground"
-        app:itemTextColor="@android:color/white"
-        app:itemIconTint="@android:color/white"
+        android:fitsSystemWindows="true"
         app:headerLayout="@layout/drawer_nav_header_first"
+        app:itemIconTint="@android:color/white"
+        app:itemTextAppearance="@style/DiabloTextViewStyle"
+        app:itemTextColor="@android:color/white"
         app:menu="@menu/nav_drawer_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.graphics.text.LineBreaker;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -75,6 +76,9 @@ public class FirstActivity extends AppCompatActivity implements NavigationView.O
             mtextView2.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
             mtextView3.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
         }
+
+        TextView linkIntro = (TextView) findViewById(R.id.first_introduction);
+        linkIntro.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     /**

@@ -6,5 +6,11 @@
         <item name="colorPrimaryDark">@android:color/background_dark</item>
         <item name="colorAccent">@android:color/background_light</item>
     </style>
+    <style name="DiabloTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/diablo_light</item>
+    </style>
+    <style name="DiabloFormalTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/formal_436_bt</item>
+    </style>
 
 </resources>

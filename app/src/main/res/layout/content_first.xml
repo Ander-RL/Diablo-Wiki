@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@android:color/background_dark">
+    android:background="@android:color/background_dark"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/first_header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:fontFamily="@font/diablo_light"
         android:padding="10dp"
         android:text="@string/header_intro"
         android:textColor="@android:color/white"
@@ -39,6 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="@font/formal_436_bt"
                 android:paddingStart="15dp"
                 android:paddingLeft="15dp"
                 android:paddingTop="40dp"
@@ -47,17 +49,18 @@
                 android:text="@string/first_quote"
                 android:textColor="@android:color/white"
                 android:textSize="14sp"
-                android:textStyle="italic"/>
+                android:textStyle="italic" />
 
             <TextView
                 android:id="@+id/first_introduction"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="@font/formal_436_bt"
                 android:paddingStart="15dp"
                 android:paddingLeft="15dp"
-                android:paddingRight="15dp"
                 android:paddingTop="40dp"
+                android:paddingRight="15dp"
                 android:paddingBottom="40dp"
                 android:text="@string/first_intro"
                 android:textColor="@android:color/white"
@@ -75,6 +78,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:fontFamily="@font/formal_436_bt"
                 android:padding="15dp"
                 android:text="@string/first_intro2"
                 android:textColor="@android:color/white"
