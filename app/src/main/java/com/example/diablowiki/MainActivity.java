@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+//THIS ACTIVITY IS FOR APP INTRO
 public class MainActivity extends AppCompatActivity {
 
 

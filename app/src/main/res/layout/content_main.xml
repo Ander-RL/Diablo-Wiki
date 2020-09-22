@@ -19,13 +19,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_centerVertical="true"
         android:background="@drawable/button_medium"
-        android:fontFamily="@font/diablo_light"
+        android:fontFamily="@font/diablo_heavy"
         android:onClick="launchFirstActivity"
         android:text="@string/button_start"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="18sp" />
 
 </RelativeLayout>

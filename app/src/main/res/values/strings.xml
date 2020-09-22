@@ -16,7 +16,7 @@
 
         \n\nSet in the kingdom of
         <a href="https://diablo.fandom.com/wiki/Khanduras">Khanduras</a> that is located in the world of
-        <a href="https://diablo.fandom.com/wiki/Sanctuary" >Sanctuary</a>,
+        <a href="https://diablo.fandom.com/wiki/Sanctuary">Sanctuary</a>,
         Diablo has the player take control of a lone hero or heroine starting outside of their house in town as they set out on a journey to rid the town of
         <a href="https://diablo.fandom.com/wiki/Tristram">Tristram</a> of the titular <a href="https://diablo.fandom.com/wiki/Diablo">Lord of Terror</a>,
         and his horde of demon minions lurking in the shadows underground beneath the
@@ -52,8 +52,165 @@
         <a href="https://diablo.fandom.com/wiki/Diablo_II:_Lord_of_Destruction">Diablo II: Lord of Destruction</a>
         , was released in 2001.
     </string>
+    <string name="lore_summary">The Diablo Universe involves angels, demons, super humans, giant spiders, world-bearing dragons,
+        an earth that shouldn\'t rightly exist, necromancy, shape shifting druids, maddened kings, and warring nations: getting lost in it can be easy.
+        This article sums up the very basics of events in chronological order, starting from the very birth of reality and ending with what is known for fact.
+        It also aims to summarize the most important facts that we know of regarding the backstory that will set the base for Diablo III.
 
-    <string name="header_intro">About Diablo</string>
+        SPOILER ALERT: While all articles in this wiki are prone to spoilers, this page will reveal basically all plots and story elements of all games and books released to date.
+        It is therefore probably safe to say that it is the most spoiler-intensive article in the wiki. If you do not wish to have your reading or playing experience spoiled, do not read this article.
+    </string>
+    <string name="the_beginning_of_the_great_conflict">
+        Since the birth of reality itself, the High Heavens and the Burning Hells have waged an endless war for anything of value within their realms of order and chaos.
+        No side has gained much of anything at all for long, and, in their struggle, have often destroyed much of what they sought to claim.
+        It is referred to as The Great Conflict, and all other wars and events, like The Sin War, fall under it.
+
+        \n\nThe story begins with Inarius, a powerful angel and member of the Angiris Council.
+        Tired of the constant fighting, he sees little point in their infinite war they are waging against Hell.
+        Convinced that there must be others such as him in both Heaven and Hell, Inarius starts to search for other individuals who share his views on the war.
+        To his surprise there are many such as himself, and together with Lilith, daughter of Mephisto, he leads a great exodus.
+        Together, they defect from Heaven and Hell and search for another place to live.
+        They succeed in stealing the Worldstone, and perform two tasks which above all others will affect the course of history:
+
+        \n\n - Create Sanctuary, the world of men, as a paradise and refuge from the Great Conflict
+        \n - Create the Nephalem, the first humans
+
+        \n\nTo protect this world from both Heaven and Hell, they used the stolen Worldstone.
+        It acted as a protective barrier, and effectively prevented angels and demons from either directly invading Sanctuary or noticing its existence at all.
+        How exactly it worked remains unclear, but work it did.
+
+        \n\nThe two races of Heaven and Hell tried to live peacefully with each other on Sanctuary, and even mated with each other,
+        spawning the first generation of humans, called the Nephalem.
+        It quickly became apparent that the Nephalem were as powerful as their parents, and had the potential to be much, much more than any angel or demon.
+        This caused struggle among the higher beings. Inarius wanted to kill the humans, as he viewed them as a threat to their own existence.
+        Lilith, on the other hand, wanted to raise the Nephalem to an army and have them fight both Heaven and Hell.
+        The two began fighting, and Inarius cast out Lilith from Sanctuary and imprisoned her in The Void, claiming Sanctuary as his own.
+        Many of the Nephalem were slain during this time, but some survived, like Bul-Kathos and Rathma.
+        The latter became the servant of Trag\'Oul, a mystical dragon, and guardian of Sanctuary.
+    </string>
+    <string name="the_sin_war">
+        As time went on, the Prime Evils discovered Sanctuary.
+        Immediately realizing the potential of humanity as a weapon against Heaven, they created a religion called The Triune there to lure humans to their side.
+        Inarius thus similarly set up his own Cathedral of Light to combat the Three.
+        The two forces battled behind the scenes with each other on Sanctuary, while Heaven remained unknowing of Sanctuary\'s existence.
+        The two religions waged a constant but seemingly petty war against each other, and the world was more or less unaffected.
+        The two churches meddled in the everyday lives of humans sometimes, but none except for the most high-ranking of the church servants knew the true identities between the religions.
+        That all changed when Lilith broke free of her prison. Returning to Sanctuary, she once again sought to use the humans to her own advantage and conquer both Heaven and Hell.
+
+        \n\nIn these events, a man named Uldyssian, a distant descendant of Inarius and Lilith, got caught in her plots.
+        Unbeknownst to him, Lilith gave him magical powers and framed him. Making it appear as though he had slain the servants of both the Triune,
+        and the Cathedral of Light. Lilith disguised herself as a human named Lylia, and snared Uldyssian into doing as she wished.
+        Uldyssian thought that these powers lay latent in all humans, and, followed by Mendeln, his younger brother, Serenthia,
+        a longtime family friend infatuated with Uldyssian and the daughter of the merchant Cyrus, and Achilios, a childhood friend and archer,
+        fled the town of Seram fearing for their lives. The very people who were once close friends and neighbors turned upon Uldyssian fearing his new abilities,
+        and what it seemed that he did with them. Uldyssian blamed the Triune, and the Cathedral for the predicament he was in and so set off to awaken these powers in others,
+        that they might live in a world of their own crafting, not the Triune or Cathedral. The venture was a struggle at first, but with the unknown aid from Lilith,
+        more and more people were found who could use magic, and they gathered under Uldyssian. They became known as the Edyrem, with Uldyssian as their leader.
+
+        \n\nThese actions brought with them turmoil. Lucion, leader of the Triune and son of Mephisto, sent formidable enemies to hunt down Uldyssian,
+        among them Malic, Damos, Gulag and Astrogha (the latter who also appears in other novels, most notably Moon of the Spider).
+
+        \n\nMendeln, during this time, was noticed by Rathma. Rathma was the son of Inarius and Lilith, and the first servant of Trag\'Oul,
+        a great dragon connected to Sanctuary but aligned with neither Heaven nor Hell. Rathma trained Mendeln as an apprentice, and they are the first two Necromancers.
+
+        \n\nLilith in the meantime understood that her plans could not be achieved unless something was done with the Worldstone.
+        The crystal had been created by Inarius to both shield the world and to limit the powers of humans.
+        So long as it still stood, no human army of hers would ever wage war with Heaven or Hell.
+        Uldyssian however was brought there, and after a brief brawl with Bul\'Kathos, he was allowed into the Worldstone Chamber with Rathma as his companion.
+        After killing bat-like demons Rathma, though doubtful he would succeed, suggested Uldyssian attempt to change the worldstone to better favor him and his people.
+        What he did astonished Rathma, and later Inarius as well. Uldyssian had altered the structure of the crystal, something not even Inarius could undo.
+        This change had monumental consequences, and not only stopped the weakening of the Nephalem, but in fact sped up the growth of their powers.
+
+        \n\nEventually Inarius was dragged into the conflict.
+        The tyrant ruler of Sanctuary, he had considered himself above Uldyssian and refused to come into direct contact with him.
+        Because of that belief, he sent his trusted assistant Gamuel to assassinate Uldyssian.
+        The plot failed and Inarius resorted to even more desperate measures, a pact with Diablo himself. At this point, the human\'s powers had grown immensely,
+        and a confrontation was imminent.
+        Initially Inarius did not view Uldyssian as much of a threat, but as his efforts to stop the human continued to fail,
+        Inarius became more and more desperate (though he refused to admit as much to himself).
+        At this time, Inarius was approached by Diablo, and the Prime Evil offered him a pact. Together the two sought to defeat Uldyssian and his Edyrem.
+        At the same time, Tyrael discovered Sanctuary, and soon thereafter the High Heavens was notified of the existence of this world.
+
+        \n\nThe High Heavens viewed Sanctuary and its inhabitants as an abomination to existence, and acted accordingly, sending their armies directly to Sanctuary.
+        Trag\'Oul, the guardian of Sanctuary, used his immense power to shield Sanctuary\'s location from the angels but he could not hold it forever.
+        Uldyssian and Inarius also clashed, and that battle is without a doubt the fiercest battle that has ever taken place on the face of Sanctuary,
+        and likely ever will. Both wielded the strength of gods, and continually changed the landscape surrounding them as they battled. As they fought,
+        a tear appeared in the sky as the hosts of angels finally reached and invaded Sanctuary. Soon after, Uldyssian\'s entire body infused with energy,
+        he acquired a higher understanding of Sanctuary itself and easily broke the bond between Inarius and the Worldstone.
+        Inarius, without the immense amount of power to draw upon was easily defeated by Uldyssian,
+        and trapped in a prison until the Angiris Council further decided his fate.
+        Soon after the angels reached Sanctuary, Tyrael found Uldyssian and shackled him.
+        Demons of the Burning Hells, determined not to let the angels destroy what they sought to exploit, erupted onto the landscape and a three way battle commenced.
+        The angels battling on one side, the demons on the other, and the Edyrem stuck in the middle.
+        Uldyssian still shackled, was forced to watch his people as they fought against both angel and demon.
+        Overcome with emotion, he finally broke free of Tyrael\'s bonds and demanded the armies to stop.
+        Surprisingly, they all became frozen in time. Uldyssian then cleared the angels and the demons from his world.
+        He began changing the landscape back to how it was before all the destruction had taken place.
+        As he did so, his powers refused to cooperate and instead destroyed the environment where he was trying to fix it.
+        He realized the only thing he could do was to draw the destruction into himself, and so with all his might he did so.
+        Finally, after taking in all the destruction that Sanctuary had suffered, Trag\'Oul guided him to The Void to release it.
+
+        \n\nHe felt the pressure building up again, this time for the final moment, and readied himself and his world for it.
+        And when it came, it did so with an explosion of pure energy that ever so briefly shook Sanctuary to its foundations.
+        Uldyssian roared, not because of pain but rather the sheer ecstasy of his transformation.
+        He was no longer a mere human but something of which even the angels and demons could not conceive.
+        He was Sanctuary for one moment, and all that surrounded it. His presence dwarfed that of Trag\'Oul… of any being near.
+        His consciousness spread out above his treasured world, where he looked at it one last time.
+    </string>
+    <string name="the_reset">
+        After the battle, a gathering was held between the Angiris Council and Mephisto.
+        Sanctuary was all but destroyed, but all hope was not lost. Some, like Rathma, pleaded with Heaven to spare Sanctuary.
+        A vote was held between the Angels. Imperius voted against Sanctuary\'s existence and Auriel argued strongly for it.
+        The deciding vote was laid by Tyrael, who initially seemed to show little love for humanity,
+        something which has evidently developed over the years since this event. Together with Mephisto, a deal was made between Heaven and Hell.
+        Sanctuary was to live on its own, with no war brought there by Heaven or Hell. Humanity would choose for themselves what to do.
+        In return for agreeing to this, Mephisto obtained custody of Inarius and took him to the Burning Hells.
+        Mephisto sought Inarius because it was him and his daughter Lilith that was responsible for the creation of Sanctuary and the Nephalem.
+
+        \n\nThis was followed by a reset of the world. Time was reverted right to the point where Uldyssian left his home village,
+        and events were unmade so that the inhabitants of Sanctuary could mature on their own, without the influence of the Triune, or the Cathedral.
+
+        \n\n - All memories were wiped save that of the original Nephalem
+        (the reasoning was that the original Nephalem were very few and they would pass-on soon enough anyway) and Mendeln
+        (Trag\'Oul saved him his memory so he could remember the sacrifice his brother made, as well as teach any willing students the ways of the balance).
+
+        \n\n - Serenthia is revived and Achilios is turned back into a living human because of Uldyssian sacrificing himself
+        (this is a direct effect of Uldyssian\'s sacrifice, has nothing to do with the Angiris Council or Mephisto)
+
+        \n\n - The Cathedral and Triune were no more.
+
+        \n\nThis, the reset world, is the past from which the games take place.
+        The first \'version\', with Uldyssian, isn\'t recorded in any history but is known by a few humans, as well as angels and demons naturally.
+    </string>
+    <string name="the_dark_exile">
+        Azmodan, Belial, Andariel, and Duriel are the four Lesser Evils of Hell.
+        Whether Diablo and his brothers intended for it or not, the Four Lesser Evils plotted and ultimately exiled the Three Primes into Sanctuary.
+        In their absence, Belial, the lord of Lies, and Azmodan, the Lord of Sin, engaged in a civil war between themselves.
+        Their war rages in the deepest pits of Hell to this day.
+    </string>
+    <string name="the_horadrim">
+        Tyrael learns of the Three\'s exile into Sanctuary and mobilizes to stop them.
+        He creates the Horadrim, a collection of the most powerful human Magi, including Jered Cain, Deckard Cain\'s ancestor, and Tal Rasha.
+        Tyrael charges the Horadrim with the capture of the Three Prime Evils, giving them Soulstones to imprison the souls of Diablo and his brothers within.
+        One by one they find and imprison the Primes. Unable to permanently destroy the demons, the Horadrim are forced to instead hide the Soulstones.
+        Their locations are as follows:
+
+        \n\n - Baal\’s Soulstone was imprisoned inside a huge tomb constructed with a single purpose: keep him in and others out.
+        Baal had damaged his soulstone during his capture due to his destructive nature.
+        Tal Rasha, knowing that the final shard of Baal\'s broken Soulstone was not great enough to contain the Prime Evil,
+        chose to use his own body as a prison for the Prime. Lodging it into his chest and binding himself to a pillar,
+        Tal Rasha remained in the tomb for centuries, containing the Evil within.
+
+        \n\n - Mephisto\’s Soulstone was sealed inside a temple in Kurast, although he had originally been captured in Aranoch along with Baal.
+        Afraid to imprison two Primes so close to each other, the Horadrim chose to move him.
+        The Zakarum monks were tasked with its protection (ultimately, however, the Soulstone corrupted the monks and Mephisto took a host among them).
+
+        \n\nDiablo had fled to the west and continued to evade capture for several decades after his brothers\' capture.
+        Eventually he was captured near today\'s Westmarch, and the Horadrim built a cathedral above his tomb to stand guard.
+        As time passed by however, the Horadrim fell apart, and no one else remembered the evil imprisoned within.
+    </string>
+
+
     <string name="contentDescription_logo1">Initial image content_main</string>
     <string name="contentDescription_logo2">Second image content_main</string>
     <string name="nav_about_game">About the game</string>
@@ -70,4 +227,36 @@
     <string name="place_holder">Place holder</string>
     <string name="header_image">Header image</string>
     <string name="button_start">Start</string>
+    <string name="sanctuary_map">Sanctuary Map</string>
+
+    <!-- /////////////////////////// TOOLBAR TITLES /////////////////////////// -->
+    <string name="toolbar_second">Diablo Lore</string>
+
+    <!-- /////////////////////////// HEADERS /////////////////////////// -->
+
+    <string name="header_intro">About Diablo</string>
+    <string name="header_the_beginning">The Beginning of the Great Conflict</string>
+    <string name="header_the_sin_war">The Sin War</string>
+    <string name="header_the_reset">The Reset</string>
+    <string name="header_the_dark_exile">The Dark Exile</string>
+    <string name="header_the_horadrim">The Horadrim</string>
+    <string name="header_diablo_I">Diablo I</string>
+    <string name="header_diablo_II">Diablo II</string>
+    <string name="header_diablo_II_expansion">Diablo II: Lord of Destruction</string>
+    <string name="header_intro_second">Intro</string>
+    <string name="header_diablo_lore">Diablo Lore</string>
+
+    <!-- /////////////////////////// BUTTONS /////////////////////////// -->
+
+    <string name="intro_button">Intro</string>
+    <string name="the_beginning_button">The Beginning</string>
+    <string name="the_sin_war_button">The Sin War</string>
+    <string name="the_reset_button">The Reset</string>
+    <string name="the_dark_exile_button">The Dark Exile</string>
+    <string name="the_the_horadrim_button">The The Horadrim</string>
+
+    <!-- /////////////////////////// ACTIVITIES /////////////////////////// -->
+
+    <string name="child_activity_second">Second Activity</string>
+    <string name="first_home_activity">First/Home Activity</string>
 </resources>

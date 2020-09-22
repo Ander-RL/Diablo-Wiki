@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+
+        <!-- The Main/Intro Activity (it has no parent activity) -->
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,8 +19,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FirstActivity">
+
+        <!-- First/Home Activity -->
+
+        <activity android:name=".FirstActivity"
+            android:label="@string/first_home_activity">
         </activity>
+
+        <!-- Child of the First Activity -->
+
+        <activity android:name=".SecondActivity"
+            android:label="@string/child_activity_second"
+            android:parentActivityName=".FirstActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FirstActivity" />
+        </activity>
+
     </application>
 
 </manifest>

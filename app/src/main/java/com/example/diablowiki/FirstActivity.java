@@ -16,12 +16,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
-
+//THIS ACTIVITY IS FOR ABOUT THE GAME ACTIVITY
 public class FirstActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    public TextView mtextView1;
-    public TextView mtextView2;
-    public TextView mtextView3;
+    private TextView mtextView1;
+    private TextView mtextView2;
+    private TextView mtextView3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,8 +77,8 @@ public class FirstActivity extends AppCompatActivity implements NavigationView.O
             mtextView3.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
         }
 
-        TextView linkIntro = (TextView) findViewById(R.id.first_introduction);
-        linkIntro.setMovementMethod(LinkMovementMethod.getInstance());
+        //TextView linkIntro = (TextView) findViewById(R.id.first_introduction);
+        mtextView2.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
     /**
@@ -98,7 +98,8 @@ public class FirstActivity extends AppCompatActivity implements NavigationView.O
                 return true;
             case R.id.nav_lore:
                 drawer.closeDrawer(GravityCompat.START);
-                displayToast(getString(R.string.place_holder));
+                Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
+                startActivity(intent);
                 return true;
             case R.id.nav_characters:
                 drawer.closeDrawer(GravityCompat.START);
