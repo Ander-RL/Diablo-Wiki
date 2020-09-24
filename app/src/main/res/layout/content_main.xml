@@ -1,29 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/blackBackground">
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/main_gif_logo"
-        android:layout_width="298dp"
-        android:layout_height="152dp"
-        android:layout_above="@id/button_start"
-        android:layout_centerHorizontal="true"
-        android:background="@color/blackBackground"
-        android:padding="25dp"
-        android:src="@drawable/diablo_logo_gif" />
+    <ImageView
+        android:id="@+id/diablo_head2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/contentDescription_logo1"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/diablo_head2" />
 
     <Button
         android:id="@+id/button_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_below="@id/diablo_head2"
+        android:layout_centerHorizontal="true"
         android:background="@drawable/button_medium"
         android:fontFamily="@font/diablo_heavy"
         android:onClick="launchFirstActivity"
         android:text="@string/button_start"
         android:textColor="@android:color/black"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diablo_head2" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,8 +17,8 @@
         android:textColor="@android:color/white"
         android:textSize="16sp"
         android:textStyle="bold" />
-
-    <ScrollView
+<!-- ToolBar only hides if RecyclerView or any other View prepared of nested scrolling such as NestedScrollView is used -->
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -85,6 +85,6 @@
                 android:textSize="14sp" />
         </LinearLayout>
 
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>

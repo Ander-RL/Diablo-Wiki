@@ -259,4 +259,9 @@
 
     <string name="child_activity_second">Second Activity</string>
     <string name="first_home_activity">First/Home Activity</string>
+
+    <!-- /////////////////////////// CONTENT DESCRIPTION /////////////////////////// -->
+
+    <string name="go_top_button">Go to the top button</string>
+
 </resources>

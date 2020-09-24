@@ -2,13 +2,22 @@ package com.example.diablowiki;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.widget.NestedScrollView;
 
+import android.app.ActionBar;
+import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.graphics.text.LineBreaker;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ScrollView;
 import android.widget.TextView;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 import org.w3c.dom.Text;
 
@@ -28,11 +37,21 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Toolbar toolbarSecond = findViewById(R.id.toolbarSecond);
+        //To set the Toolbar to act as the ActionBar
         setSupportActionBar(toolbarSecond);
+
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbarSecond.setTitle("");
         toolbarSecond.setSubtitle("");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                scrollToTop();
+            }
+        });
 
         getIntent();
 
@@ -51,15 +70,33 @@ public class SecondActivity extends AppCompatActivity {
             mtextView5.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
             mtextView6.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
         }
-
-
     }
 
+    /**
+     * This method is used to scroll the ScrollView down to the desired position.
+     * Different buttons offer different positions inside the ScrollView.
+     * To link the id tof the TextView that the button is offering, getID is used.
+     * Once the ID of the TextView is saves in textView, scrollTo() is used on scrollView.
+     * scrollTo(int x, int y) takes for parameters the position of the desired view (textView).
+     * In order to achieve the view´s position getX() and getY() are used and casted into an int.
+     *
+     * @param view Clicked button
+     */
+
     public void scrollTo(View view) {
-        final ScrollView scrollview = ((ScrollView) findViewById(R.id.scrollview));
+        final NestedScrollView scrollview =  findViewById(R.id.scrollview);
         TextView textView = getID(view);
         scrollview.scrollTo((int)textView.getX(),(int)textView.getY());
     }
+
+    /**
+     * Custom getId() method. Compares the view´s (button´s) id with the different TextView id.
+     * If they match, saves the id of the TextView in textView.
+     * Used to identify the TextView that is linked with the button.
+     *
+     * @param view Clicked button in scrollTo(View view)
+     * @return textView
+     */
 
     public TextView getID(View view){
         TextView textView = null;
@@ -84,5 +121,10 @@ public class SecondActivity extends AppCompatActivity {
                 break;
         }
         return textView;
+    }
+
+    public void scrollToTop() {
+        final NestedScrollView scrollview = findViewById(R.id.scrollview);
+        scrollview.fullScroll(ScrollView.FOCUS_UP);
     }
 }

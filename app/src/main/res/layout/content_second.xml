@@ -7,7 +7,7 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/header_diblo_lore"
+        android:id="@+id/header_diablo_lore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="start"
@@ -17,10 +17,11 @@
         android:paddingRight="15dp"
         android:paddingBottom="5dp"
         android:text="@string/header_diablo_lore"
+        android:textSize="16sp"
         android:textColor="@android:color/white"
         android:textStyle="bold" />
 
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:id="@+id/scrollview"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -29,14 +30,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/background_dark"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="50dp">
 
-            <ImageView
-                android:id="@+id/diablo_head2"
-                android:layout_width="match_parent"
-                android:layout_height="130dp"
-                android:contentDescription="@string/contentDescription_logo1"
-                app:srcCompat="@drawable/diablo_head2" />
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/main_gif_logo"
+                android:layout_width="298dp"
+                android:layout_height="152dp"
+                android:layout_gravity="center"
+                android:background="@color/blackBackground"
+                android:padding="25dp"
+                android:src="@drawable/diablo_logo_gif" />
 
             <Button
                 android:id="@+id/button_intro"
@@ -258,6 +262,6 @@
                 android:textSize="14sp" />
         </LinearLayout>
 
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
 </LinearLayout>
