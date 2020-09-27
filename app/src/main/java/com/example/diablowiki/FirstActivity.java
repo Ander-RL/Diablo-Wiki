@@ -19,10 +19,6 @@ import com.google.android.material.navigation.NavigationView;
 //THIS ACTIVITY IS FOR ABOUT THE GAME ACTIVITY
 public class FirstActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    private TextView mtextView1;
-    private TextView mtextView2;
-    private TextView mtextView3;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,9 +64,9 @@ public class FirstActivity extends AppCompatActivity implements NavigationView.O
             navigationView.setNavigationItemSelectedListener(FirstActivity.this);
         }
         //Justifying textViews text.
-        mtextView1 = findViewById(R.id.first_quote);
-        mtextView2 = findViewById(R.id.first_introduction);
-        mtextView3 = findViewById(R.id.first_introduction2);
+        TextView mtextView1 = findViewById(R.id.first_quote);
+        TextView mtextView2 = findViewById(R.id.first_introduction);
+        TextView mtextView3 = findViewById(R.id.first_introduction2);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             mtextView1.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
             mtextView2.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
@@ -94,16 +90,15 @@ public class FirstActivity extends AppCompatActivity implements NavigationView.O
         switch (item.getItemId()) {
             case R.id.nav_about_game:
                 drawer.closeDrawer(GravityCompat.START);
-                displayToast(getString(R.string.place_holder));
                 return true;
             case R.id.nav_lore:
                 drawer.closeDrawer(GravityCompat.START);
-                Intent intent = new Intent(FirstActivity.this, SecondActivity.class);
-                startActivity(intent);
+                Intent intentSecond = new Intent(FirstActivity.this, SecondActivity.class);
+                startActivity(intentSecond);
                 return true;
             case R.id.nav_characters:
-                drawer.closeDrawer(GravityCompat.START);
-                displayToast(getString(R.string.place_holder));
+                Intent intentThird = new Intent(FirstActivity.this, ThirdActivity.class);
+                startActivity(intentThird);
                 return true;
             case R.id.nav_items:
                 drawer.closeDrawer(GravityCompat.START);

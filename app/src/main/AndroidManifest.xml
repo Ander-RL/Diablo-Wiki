@@ -26,10 +26,18 @@
             android:label="@string/first_home_activity">
         </activity>
 
-        <!-- Child of the First Activity -->
+        <!-- Children of the First Activity -->
 
         <activity android:name=".SecondActivity"
             android:label="@string/child_activity_second"
+            android:parentActivityName=".FirstActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FirstActivity" />
+        </activity>
+        <activity android:name=".ThirdActivity"
+            android:label="@string/child_activity_third"
             android:parentActivityName=".FirstActivity" >
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data

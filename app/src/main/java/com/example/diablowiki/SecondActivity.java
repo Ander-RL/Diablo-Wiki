@@ -4,45 +4,30 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.widget.NestedScrollView;
 
-import android.app.ActionBar;
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.graphics.text.LineBreaker;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
-import org.w3c.dom.Text;
-
-//THIS ACTIVITY IS FOR ABOUT THE GAME LORE
+// THIS ACTIVITY IS FOR "ABOUT THE GAME"
 public class SecondActivity extends AppCompatActivity {
-
-    private TextView mtextView1;
-    private TextView mtextView2;
-    private TextView mtextView3;
-    private TextView mtextView4;
-    private TextView mtextView5;
-    private TextView mtextView6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Toolbar toolbarSecond = findViewById(R.id.toolbarSecond);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         //To set the Toolbar to act as the ActionBar
-        setSupportActionBar(toolbarSecond);
+        setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayShowTitleEnabled(false);
-        toolbarSecond.setTitle("");
-        toolbarSecond.setSubtitle("");
+        toolbar.setTitle("");
+        toolbar.setSubtitle("");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -55,12 +40,12 @@ public class SecondActivity extends AppCompatActivity {
 
         getIntent();
 
-        mtextView1 = findViewById(R.id.lore_summary);
-        mtextView2 = findViewById(R.id.the_beginning);
-        mtextView3 = findViewById(R.id.the_sin_war);
-        mtextView4 = findViewById(R.id.the_reset);
-        mtextView5 = findViewById(R.id.the_dark_exile);
-        mtextView6 = findViewById(R.id.the_horadrim);
+        TextView mtextView1 = findViewById(R.id.lore_summary);
+        TextView mtextView2 = findViewById(R.id.the_beginning);
+        TextView mtextView3 = findViewById(R.id.the_sin_war);
+        TextView mtextView4 = findViewById(R.id.the_reset);
+        TextView mtextView5 = findViewById(R.id.the_dark_exile);
+        TextView mtextView6 = findViewById(R.id.the_horadrim);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             mtextView1.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);

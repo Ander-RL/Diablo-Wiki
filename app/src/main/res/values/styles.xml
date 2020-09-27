@@ -19,4 +19,9 @@
         <item name="android:fontFamily">@font/formal_436_bt</item>
     </style>
 
+    <style name="TabLayoutTextStyleCustom" parent="TextAppearance.Design.Tab">
+        <item name="android:fontFamily">@font/diablo_light</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>

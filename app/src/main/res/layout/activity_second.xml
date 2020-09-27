@@ -10,16 +10,8 @@
         android:orientation="vertical"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbarSecond"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:layout_gravity="center"
-            android:background="@android:color/background_dark"
-            android:gravity="center"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:layout_scrollFlags="scroll|enterAlways"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+        <include
+            layout="@layout/toolbar" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
