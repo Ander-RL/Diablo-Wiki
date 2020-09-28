@@ -16,6 +16,13 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 // THIS ACTIVITY IS FOR "ABOUT THE GAME"
 public class SecondActivity extends AppCompatActivity {
 
+    private TextView mtextView1;
+    private TextView mtextView2;
+    private TextView mtextView3;
+    private TextView mtextView4;
+    private TextView mtextView5;
+    private TextView mtextView6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,12 +47,12 @@ public class SecondActivity extends AppCompatActivity {
 
         getIntent();
 
-        TextView mtextView1 = findViewById(R.id.lore_summary);
-        TextView mtextView2 = findViewById(R.id.the_beginning);
-        TextView mtextView3 = findViewById(R.id.the_sin_war);
-        TextView mtextView4 = findViewById(R.id.the_reset);
-        TextView mtextView5 = findViewById(R.id.the_dark_exile);
-        TextView mtextView6 = findViewById(R.id.the_horadrim);
+        mtextView1 = findViewById(R.id.lore_summary);
+        mtextView2 = findViewById(R.id.the_beginning);
+        mtextView3 = findViewById(R.id.the_sin_war);
+        mtextView4 = findViewById(R.id.the_reset);
+        mtextView5 = findViewById(R.id.the_dark_exile);
+        mtextView6 = findViewById(R.id.the_horadrim);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             mtextView1.setJustificationMode(LineBreaker.JUSTIFICATION_MODE_INTER_WORD);
@@ -69,7 +76,7 @@ public class SecondActivity extends AppCompatActivity {
      */
 
     public void scrollTo(View view) {
-        final NestedScrollView scrollview =  findViewById(R.id.scrollview);
+        final NestedScrollView scrollview =  findViewById(R.id.scrollviewSecond);
         TextView textView = getID(view);
         scrollview.scrollTo((int)textView.getX(),(int)textView.getY());
     }
@@ -109,7 +116,7 @@ public class SecondActivity extends AppCompatActivity {
     }
 
     public void scrollToTop() {
-        final NestedScrollView scrollview = findViewById(R.id.scrollview);
+        final NestedScrollView scrollview = findViewById(R.id.scrollviewSecond);
         scrollview.fullScroll(ScrollView.FOCUS_UP);
     }
 }

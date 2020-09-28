@@ -1,4 +1,7 @@
 <resources>
+
+    <!-- /////////////////////////// LORE /////////////////////////// -->
+
     <string name="app_name">Diablo Wiki</string>
     <string name="first_quote">\"Many moons have passed since I left the town of Tristram behind me.
         Since then I\'ve tried to forget the terrors I beheld beneath the cold earth, and the twisted nightmares that have haunted my every waking moment.
@@ -57,7 +60,7 @@
         This article sums up the very basics of events in chronological order, starting from the very birth of reality and ending with what is known for fact.
         It also aims to summarize the most important facts that we know of regarding the backstory that will set the base for Diablo III.
 
-        SPOILER ALERT: While all articles in this wiki are prone to spoilers, this page will reveal basically all plots and story elements of all games and books released to date.
+        \n\nSPOILER ALERT: While all articles in this wiki are prone to spoilers, this page will reveal basically all plots and story elements of all games and books released to date.
         It is therefore probably safe to say that it is the most spoiler-intensive article in the wiki. If you do not wish to have your reading or playing experience spoiled, do not read this article.
     </string>
     <string name="the_beginning_of_the_great_conflict">
@@ -210,9 +213,192 @@
         As time passed by however, the Horadrim fell apart, and no one else remembered the evil imprisoned within.
     </string>
 
+    <!-- /////////////////////////// CLASSES /////////////////////////// -->
 
-    <string name="contentDescription_logo1">Initial image content_main</string>
-    <string name="contentDescription_logo2">Second image content_main</string>
+    <string name="warrior_tab1">
+        Warriors are arguably the strongest character class in Diablo I.
+        They can wield Swords, Axes or Maces, and swing them at fast speed with ease.
+        These weapons are either one-handed or two-handed.
+        Two-handed weapons are more useful in the beginning, but at later levels, players reach a Vitality cap which causes Life to increase at a relatively slower rate.
+        In these later levels, the warrior has similar life to their earlier levels, but the monsters do much more damage.
+        This necessitates the use of a Shield. Their amazing Strength allows them to equip even the heaviest of all Armor.
+
+        \n\nTheir magical abilities are limited.
+        With the lowest maximum Magic of 50 and less Mana per level than the other classes, they are forced to only use support spells like Stone Curse and Teleport.
+        With their low mana, these support spells can be used only sparingly.
+        Since their low level attack spells cannot effectively damage high-level monsters, attack spells like Firebolt and Charged Bolt are not an option.
+        Advocates, which can teleport away from the player(s), and the Succubi, which upon close contact, flee at the exact same pace as the player character(s) walks,
+        are for that very reason especially difficult. Following them might result in aggravating more enemies to attack the player(s).
+        Although the modification which gives less Light Radius is intended to be a curse, it proves very beneficial to warriors nonetheless.
+        If one chooses to go with a lower light radius, the Warrior will aggravate fewer monsters.
+    </string>
+    <string name="rogue_tab1">
+        The Rogue\'s Strength and Magic attributes are intermediate between the Warrior and the Sorcerer,
+        but with a Vitality being a bit lower than that of a Warrior and on par with a Sorcerer\'s,
+        however her Dexterity is much higher than that of the aforementioned two classes.
+        She is the only character class who can use Bows effectively,
+        since the other two classes lack the dexterity needed for higher Bow Damage and To Hit percentage and are innately slow at firing Missiles.
+        The quantity of Arrows is infinite which means that they will never take an end until the bow itself breaks down, unless it is an Indestructible one,
+        and it is of great advantage for her, especially since she uses bows frequently, if she\'s not up for a Shield-and-Sword setup, that is.
+        The Rogue\'s strength is mostly used for wearing heavy Plate Armor, since her damage comes as most from her Dexterity,
+        nevertheless Strength combined with the formerly mentioned attribute from equipment gives her quite of an increase in damage.
+
+        \n\nRogues are not as effective in team games, since allies can cause damage to one another even with Player Friendly set on. For example;
+        if a Warrior is attacking, then the Rogue has to accurately target the monster to avoid hitting the Warrior.
+        The only saving grace a Warrior has from accidental damage is his Shield; since there is not a hard cap on Blocking,
+        if he were to have enough Dexterity he would be able to block the most of a Rogue\'s arrows, if not every arrow she fires as long as he is immobile.
+    </string>
+    <string name="sorcerer_tab1">
+        Sorcerers are a playable class in Diablo I. They are the game\'s most effective spell casters.
+        Since they have the highest maximum Magic out of all the character classes, they can effectively use the high-end spells.
+        These high-end spells require more than just a level-one proficiency.
+        With the sorcerer\'s naturally high Mana, the class can use spells repeatedly, and the class has the highest casting rate out of any other classes.
+    </string>
+    <string name="monk_tab1">
+        The Monk is a powerful unarmed combatant. They are strong and dextrous.
+        Monks have some skill with fighting with staves, and though it does less damage than their bare hands,
+        staves enable them to execute a sweeping attack and block incoming blows.
+        Likewise, heavy armor actually gives them less defense than lighter armor.
+        Since they possess great natural damage already, they search out staves which will give them faster attack.
+        Dexterity adds to their damage equally to strength, however Dexterity also increases their ability to block incoming attacks with their staves.
+        Their high natural defense makes searching for high defense armor less of a necessity. They try to find armor that gives them effects instead.
+        In unarmed combat they prefer to use their feet as weapons rather than their hands. Their kicks are very fast and do a lot of damage at high levels.
+
+        \n\nThe Monk search skill is very useful. In Diablo I, items could not be highlighted on the ground with the magical spell search.
+        This caused problems when trying to find rings, amulets or Elixirs on the ground, especially if they fell behind an object.
+        This necessitated a tiring search by the player to find the tiny item on the ground.
+        The Search spell highlighted not only the item on the ground, but also all items that had fallen on the map.
+        Other classes could learn Search as a spell.
+    </string>
+    <string name="barbarian_tab1">
+        The Hellfire Barbarian can only be played after editing the Command.txt file in the Hellfire folder, and only in the 1.01 patch.
+        He is similar to the Warrior class and uses the same graphics, but he has unequaled prowess in melee combat, even when reduced to the same tactics as the Warrior,
+        at the costs of no innate magic power and reduced chance to-hit.
+    </string>
+    <string name="bard_tab1">
+        The Bard is one of the two unfinished classes in Diablo: Hellfire, the other being the Barbarian.
+        She could only be played after editing the Command.txt file in the Hellfire folder.
+
+        \n\nThe Bard uses the Rogue\'s graphic, but can dual-wield weapons in lieu of a shield.
+        Bards possess balanced attributes, so they excel at nothing.
+        Possessing medium amounts of the three core attributes of Dexterity, Strength and Magic,
+        while enough to make them able to at least make use of everything in the game, for the purposes of specialization, makes them weak at all of them.
+        High dexterity, while helpful when using bows, works better when the bard makes use of at least one sword.
+
+        \n\nBards have the ability to wield two one-handed weapons. This combination of two one-handed swords is not as powerful as it seems.
+        It can be as damaging as a Great Axe at best. But there are benefits to this style for her.
+        To name one, there is the potential for an additional two magical modifications on the second weapon, which allows for deadly combos.
+        Equipping a Civerb\'s Cudgel along with a good sword (preferably of Speed or Haste)
+        will make the Bard a very powerful Melee character since the +200% damage bonus on Civerb\'s Cudgel applies to the whole damage and not just weapon damage.
+        On the other hand, a Bard could sacrifice stopping power for a good weapon with life steal, and it would be near impossible to end her reign, unless stunlock is involved.
+
+        \n\nAnother benefit is that when a Bard dual wields, she possesses the same ability to attack enemies adjacent to her target that the Monk has with his staff.
+        This, when combined with potent equipment, allows the Bard to carve a path of destruction with relative ease,
+        much in the same way that the Barbarian would with his trusty axe.
+
+        \n\nA fatal flaw in this character\'s design is that she has the melee attack speed of the Rogue.
+        Rogues were never intended to be melee attackers, so they were given a slower melee attack speed than the warrior.
+        The only saving grace of the bard\'s melee ability is her high dexterity; having a higher degree of dexterity,
+        as well as being able to equip a second weapon for extra to-hit makes the bard more suited for Civerb\'s Cudgel than the Warrior or Barbarian, who firstly,
+        needed to get the extra To-Hit from jewelry when wielding it, and secondly, had to make the hits count, as they swung at their normal attacking speed,
+        robbing them of being able to stunlock some monsters. By hitting the enemy more frequently, she has the potential to stun lock her enemy.
+
+        \n\nBecause her magical ability is only second to the sorcerer, a Bard can effectively use the attacking magical spells of Chain Lightning and Fireball,
+        and some may even find worth in choosing to invoke the protection of Mana Shield. This helps to made the Bard effective in combat, both as a spellcaster,
+        and as a melee hero who can quickly restore damage taken with her equipment and the art of healing.
+
+        \n\nHowever, the saying \'jack of all trades, masters of none\' certainly applies to a Bard: a Warrior, Monk, or Barbarian will always outdamage her in melee combat,
+        the Rogue bests her in ranged combat, and the Sorcerer is more powerful in spell combat.
+        Their strength lies in their ability to adapt: if a Bard cannot adapt, death and/or failure is more likely.
+    </string>
+    <string name="amazon_tab2">
+        The Amazon is a powerful woman warrior of the Askari, who belongs to nomadic bands who roam the plains near the South Sea.
+        The wandering of these groups often brings them into conflict with other peoples, so the Amazon is accustomed to fighting to defend her own.
+        This lifestyle has made her fiercely independent and able to weather severe hardship and travel.
+        While her skill with the Bow rivals that of the Rogues, the Amazon is also adept in the use of Spears and Javelins, as well as in hand to hand combat.
+        Amazon Weapons are items which only Amazons can equip. These are special Bows, Javelins and Spears.
+        The Amazon is much sought after as a mercenary, in which type of service she will be loyal as long as her own ends are also served.
+        \nThe Amazon is a playable class in Diablo II. She is voiced by Jessica Straus.
+    </string>
+    <string name="barbarian_tab2">
+        The Barbarians, ones of the members of any of several tribes on the fringes of civilization, rebuff the influence of those they see as soft and weak.
+        Ceaseless clan warfare and the constant struggle to survive in the hostile wilderness are evident in the Barbarians\' sturdy and powerful frame.
+        Though perhaps lacking the sophistication of their civilized contemporaries, the Barbarians have an acute awareness of their surroundings.
+        Because of their shamanistic belief in the animal powers with whom they identify, the Barbarians are sometimes associated with stories of lycanthropy.
+        In fact, they believe that they can improve their superb battle tactics by calling upon the totemic animal spirits to infuse themselves with supernatural strengths and abilities.
+    </string>
+    <string name="necromancer_tab2">
+        The Necromancer is one of the most versatile classes in the game.
+        He can have the largest number of minions simultaneously for those who love micro-management as well as having extremely potent direct damage spells.
+        He can also call upon a variety of different effects via Curses.
+    </string>
+    <string name="paladin_tab2">
+        The Paladin has a variety of builds. It is one of the most adaptable classes having builds that are good for PvM (like Hammerdin) and builds that are good for PvP (like FoHer).
+        Paladins (a.k.a. "Knights of the Faith") use holy magic as gifted by the High Heavens.
+        They maintain strictly ordered lives, constantly upholding the cause of Virtue and Light.
+        They must never succumb to worldly temptations lest they risk being deceived into following \"false lights\" - demons masquerading as Heavenly beings.
+        Paladins may use their skills to increase their prowess with sword and shield, as well as cast blessing auras on themselves and to any who join them.
+        They are particularly skilled against the undead, as they know many holy incantations effective against these types of creatures.
+
+        \n\nNumerous Paladin orders exist/have existed. The position of \"Paladin\" stems at least as far back as the Protectors of the Word,
+        which were formed just prior to Rakkis\'s crusade against the West. Since this time, different sects of Paladins have formed, with separate goals and bases of operation.
+        What these orders share in common (in theory at least) is their devotion to the teachings of Akarat and spreading the Zakarum faith.
+        By the End of Days however, many Paladin orders had been disbanded. Some formed new orders (such as the Templars), while others went rogue or freelance.
+        Others have simply died. While the Knights of Westmarch continue to function, they have distanced themselves from the Zakarum,
+        and are more focused on defending Westmarch from physical rather than spiritual harm.
+
+        \n\n\"Dark\" Paladins also exist, who carry the favor of Hell.
+        Paladins are required to sanctify their weapons with their own blood.
+        This sacrifice is a symbol of faith, that even the lowliest Paladin has to submit before the Light,
+        in order that he may prove himself worthy of victory.
+    </string>
+    <string name="sorceress_tab2">
+        Sorceresses are of the Zann Esu Clan. Athletic, affable, and self-assured, Sorceresses hardly seem like scholarly bibliophiles hidden away from civilization.
+        They possess many of the same skills as the male members of the Mage Clans, but excel at the use of elemental magic.
+        Like most mages, they consider melee combat vulgar, and use magic almost exclusively to fight their enemies.
+    </string>
+    <string name="assassin_tab2">
+        \"Schooled in the martial arts, her mind and body are deadly weapons\"
+        \n\nThe Assassin is a character class introduced in Diablo II: Lord of Destruction.
+        The Assasin\'s main weapon is a Claw or other such weapon used in the fist such as Katar or Hatchet Hands.
+        Assassins are highly adept at lock picking, allowing them to open locked chests without the need for keys used by other classes,
+        freeing up precious space in the Assassin\’s inventory for other items.
+    </string>
+    <string name="druid_tab2">
+        The Druid class became playable in Diablo II: Lord of Destruction.
+        In terms of play, they are a fairly balanced character, capable of handling themselves as spellcasters,
+        with relative proficiency in fire and cold skills, and in melee combat (especially with Shapeshifting skills, not to mention bonuses gained from Spirits).
+        They seem to have an affinity for Two-Handed Axes/Maces; a Maul and a Giant Axe, being of Slow Attack Speed for a Barbarian, is Fast Attack Speed for the Druid.
+        The other weapons in these groups are adjusted accordingly to respect this affinity.
+
+        \n\nThe Druids shun the use of traditional magic, or Dubhdroiacht, as they call it. Living by the Caoi Dúlra,
+        a philosophy that exhorts oneness with the natural world, they instead practice a form of magic based in their close bond to nature.
+        Through this intimate kinship with the world of Sanctuary, a Druid has the power to command fire, earth, and the winds.
+        Druids are so tied to the natural world that they can call upon the aid of animals and even plants to help them in battle.
+        Druids are friends to the animals of the wilds and can call upon them to aid in his struggle.
+        They can also use their heightened rapport with the animals to change the shape of their own body,
+        drawing on the strengths and abilities of their woodland companions to better serve their cause.
+        The most astounding Druid ability is that of shapeshifting,
+        allowing them to manipulate their flesh and form to take on the characteristics of the beasts they have sworn to protect.
+        Their Barbarian kin (or at least the Henknoc Tribe believe that their ability to form bonds with animals is an ability latent to the Druids\' blood.
+        However, throughout their history, the Druids have always fought back against an encroaching wilderness.
+
+        \n\nDruids do not value urban centers in the same way as the Kehjistani.
+        They instead dwell in great stone towers (called \'Druid Colleges\'), which are scattered across the land.
+        However, Druid villages still exist, and agriculture is practiced.
+        Druids generally maintain a calm and reflective demeanor, but the members of this order are not to be trifled with.
+        Given their shared ancestry with the Barbarians, they possess great physical strength. By Deckard Cain\'s estimate,
+        at least 500 high-ranking warriors watch over and guide much of Druidic culture.
+        Druids are willing to do anything to protect their way of life, including risking their own humanity by awakening the beast within.
+    </string>
+
+
+
+    <!-- /////////////////////////// NAV DRAWER /////////////////////////// -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
     <string name="nav_about_game">About the game</string>
     <string name="nav_lore">Lore</string>
     <string name="nav_lore_diablo1">Diablo I</string>
@@ -221,15 +407,12 @@
     <string name="nav_items">Items</string>
     <string name="nav_talents">Talents</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="place_holder">Place holder</string>
     <string name="header_image">Header image</string>
-    <string name="button_start">Start</string>
     <string name="sanctuary_map">Sanctuary Map</string>
 
-    <!-- /////////////////////////// TOOLBAR TITLES /////////////////////////// -->
+    <!-- /////////////////////////// TOOLBAR TITLES //////////////////// -->
+
     <string name="toolbar_second">Diablo Lore</string>
 
     <!-- /////////////////////////// HEADERS /////////////////////////// -->
@@ -245,6 +428,19 @@
     <string name="header_diablo_II_expansion">Diablo II: Lord of Destruction</string>
     <string name="header_intro_second">Intro</string>
     <string name="header_diablo_lore">Diablo Lore</string>
+    <string name="header_warrior_tab1">Warrior</string>
+    <string name="header_rogue_tab1">Rogue</string>
+    <string name="header_sorcerer_tab1">Sorcerer</string>
+    <string name="header_monk_tab1">Monk</string>
+    <string name="header_barbarian_tab1">Barbarian</string>
+    <string name="header_bard_tab1">Bard</string>
+    <string name="header_amazon_tab2">Amazon</string>
+    <string name="header_barbarian_tab2">Barbarian</string>
+    <string name="header_necromancer_tab2">Necromancer</string>
+    <string name="header_paladin_tab2">Paladin</string>
+    <string name="header_sorceress_tab2">Sorceress</string>
+    <string name="header_assassin_tab2">Assassin</string>
+    <string name="header_druid_tab2">Druid</string>
 
     <!-- /////////////////////////// BUTTONS /////////////////////////// -->
 
@@ -254,6 +450,23 @@
     <string name="the_reset_button">The Reset</string>
     <string name="the_dark_exile_button">The Dark Exile</string>
     <string name="the_the_horadrim_button">The The Horadrim</string>
+    <string name="button_start">Start</string>
+    <string name="button_warrior">Warrior</string>
+    <string name="button_bard">Bard</string>
+    <string name="button_barbarian">Barbarian</string>
+    <string name="button_monk">Monk</string>
+    <string name="button_sorcerer">Sorcerer</string>
+    <string name="button_rogue">Rogue</string>
+    <string name="button_tab1">tab1</string>
+    <string name="button_tab2">tab2</string>
+    <string name="button_amazon_tab2">Amazon</string>
+    <string name="button_barbarian_tab2">Barbarian</string>
+    <string name="button_necromancer_tab2">Necromancer</string>
+    <string name="button_paladin_tab2">Paladin</string>
+    <string name="button_sorceress_tab2">Sorceress</string>
+    <string name="button_assassin_tab2">Assassin</string>
+    <string name="button_druid_tab2">Druid</string>
+
 
     <!-- /////////////////////////// ACTIVITIES /////////////////////////// -->
 
@@ -261,11 +474,31 @@
     <string name="child_activity_second">Second Activity</string>
     <string name="first_home_activity">First/Home Activity</string>
 
-    <!-- /////////////////////////// CONTENT DESCRIPTION /////////////////////////// -->
+    <!-- //////////////////////// CONTENT DESCRIPTION ///////////////////// -->
 
     <string name="go_top_button">Go to the top button</string>
+    <string name="contentDescription_logo1">Initial image content_main</string>
+    <string name="contentDescription_logo2">Second image content_main</string>
+    <string name="contentDescription_diablo_1_warrior">Diablo 1 Warrior content description</string>
+    <string name="contentDescription_diablo_1_rogue">Diablo 1 Rogue content description</string>
+    <string name="contentDescription_diablo_1_monk">Diablo 1 Monk content description</string>
+    <string name="contentDescription_diablo_1_monk_attributes">Diablo 1 Monk content description</string>
+    <string name="contentDescription_diablo_2_amazon_skills">Diablo 2 Amazon skills</string>
+    <string name="contentDescription_diablo_2_barbarian_skills">Diablo 2 Barbarian skills</string>
+    <string name="contentDescription_diablo_2_necromancer_skills">Diablo 2 Necromancer skills</string>
+    <string name="contentDescription_diablo_2_paladin_skills">Diablo 2 Paladin skills</string>
+    <string name="contentDescription_diablo_2_sorceress_skills">Diablo 2 Sorceress skills</string>
+    <string name="contentDescription_diablo_2_assassin_skills">Diablo 2 Assassin skills</string>
+    <string name="contentDescription_diablo_2_druid_skills">Diablo 2 Druid skills</string>
+    <string name="contentDescription_diablo_2_amazon_attributes">Diablo 2 Amazon attributes</string>
+    <string name="contentDescription_diablo_2_barbarian_attributes">Diablo 2 Barbarian attributes</string>
+    <string name="contentDescription_diablo_2_necromancer_attributes">Diablo 2 Necromancer attributes</string>
+    <string name="contentDescription_diablo_2_paladin_attributes">Diablo 2 Paladin attributes</string>
+    <string name="contentDescription_diablo_2_sorceress_attributes">Diablo 2 Sorceress attributes</string>
+    <string name="contentDescription_diablo_2_assassin_attributes">Diablo 2 Assassin attributes</string>
+    <string name="contentDescription_diablo_2_druid_attributes">Diablo 2 Druid attributes</string>
 
-    <!-- /////////////////////////// THIRD ACTIVITY TAB /////////////////////////// -->
+    <!-- //////////////////////// THIRD ACTIVITY TAB ////////////////////// -->
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="third_tab_title_1">Diablo I</string>

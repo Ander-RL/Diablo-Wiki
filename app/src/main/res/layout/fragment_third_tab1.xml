@@ -6,23 +6,8 @@
     android:background="@android:color/background_dark"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/header_diablo_lore"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:fontFamily="@font/diablo_light"
-        android:paddingStart="15dp"
-        android:paddingLeft="15dp"
-        android:paddingRight="15dp"
-        android:paddingBottom="5dp"
-        android:text="@string/header_diablo_lore"
-        android:textColor="@android:color/white"
-        android:textSize="16sp"
-        android:textStyle="bold" />
-
     <androidx.core.widget.NestedScrollView
-        android:id="@+id/scrollview"
+        android:id="@+id/scrollviewThirdTab1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -34,16 +19,82 @@
             android:paddingBottom="50dp">
 
             <pl.droidsonroids.gif.GifImageView
-                android:id="@+id/main_gif_logo"
-                android:layout_width="298dp"
-                android:layout_height="152dp"
+                android:id="@+id/fragment_third_tab1_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@color/blackBackground"
                 android:padding="25dp"
-                android:src="@drawable/diablo_logo_gif" />
+                android:src="@drawable/diablo1" />
+
+            <Button
+                android:id="@+id/button_warrior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_wide"
+                android:fontFamily="@font/diablo_heavy"
+                android:onClick="scrollTo"
+                android:tag="@string/button_tab1"
+                android:text="@string/button_warrior" />
+
+            <Button
+                android:id="@+id/button_rogue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_wide"
+                android:fontFamily="@font/diablo_heavy"
+                android:onClick="scrollTo"
+                android:tag="@string/button_tab1"
+                android:text="@string/button_rogue" />
+
+            <Button
+                android:id="@+id/button_sorcerer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_wide"
+                android:fontFamily="@font/diablo_heavy"
+                android:onClick="scrollTo"
+                android:tag="@string/button_tab1"
+                android:text="@string/button_sorcerer" />
+
+            <Button
+                android:id="@+id/button_monk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_wide"
+                android:fontFamily="@font/diablo_heavy"
+                android:onClick="scrollTo"
+                android:tag="@string/button_tab1"
+                android:text="@string/button_monk" />
+
+            <Button
+                android:id="@+id/button_barbarian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_wide"
+                android:fontFamily="@font/diablo_heavy"
+                android:onClick="scrollTo"
+                android:tag="@string/button_tab1"
+                android:text="@string/button_barbarian" />
+
+            <Button
+                android:id="@+id/button_bard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_wide"
+                android:fontFamily="@font/diablo_heavy"
+                android:onClick="scrollTo"
+                android:tag="@string/button_tab1"
+                android:text="@string/button_bard" />
 
             <TextView
-                android:id="@+id/header_intro_second"
+                android:id="@+id/header_warrior_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -52,11 +103,29 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="40dp"
                 android:paddingRight="15dp"
-                android:text="@string/header_intro_second"
+                android:text="@string/header_warrior_tab1"
                 android:textColor="@android:color/white" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/diablo1_warrior_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blackBackground"
+                android:padding="25dp"
+                android:src="@drawable/diablo_1_warrior" />
+
+            <ImageView
+                android:id="@+id/diablo1_warrior_attributes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/contentDescription_diablo_1_warrior"
+                android:padding="15dp"
+                android:src="@drawable/base_warrior_attributes" />
+
             <TextView
-                android:id="@+id/lore_summary"
+                android:id="@+id/warrior_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -65,13 +134,12 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="40dp"
                 android:paddingRight="15dp"
-                android:text="@string/lore_summary"
+                android:text="@string/warrior_tab1"
                 android:textColor="@android:color/white"
-                android:textSize="14sp"
-                android:textStyle="italic" />
+                android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/header_the_beginning"
+                android:id="@+id/header_rogue_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -80,11 +148,29 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="40dp"
                 android:paddingRight="15dp"
-                android:text="@string/header_the_beginning"
+                android:text="@string/header_rogue_tab1"
                 android:textColor="@android:color/white" />
 
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/diablo1_rogue_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blackBackground"
+                android:padding="25dp"
+                android:src="@drawable/rogue1" />
+
+            <ImageView
+                android:id="@+id/diablo1_rogue_attributes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/contentDescription_diablo_1_rogue"
+                android:padding="15dp"
+                android:src="@drawable/base_rogue_attributes" />
+
             <TextView
-                android:id="@+id/the_beginning"
+                android:id="@+id/rogue_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -94,43 +180,54 @@
                 android:paddingTop="20dp"
                 android:paddingRight="15dp"
                 android:paddingBottom="40dp"
-                android:text="@string/the_beginning_of_the_great_conflict"
+                android:text="@string/rogue_tab1"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/header_sorcerer_tab1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:fontFamily="@font/diablo_light"
+                android:paddingStart="15dp"
+                android:paddingLeft="15dp"
+                android:paddingTop="40dp"
+                android:paddingRight="15dp"
+                android:text="@string/header_sorcerer_tab1"
+                android:textColor="@android:color/white" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/diablo1_sorcerer_gif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/blackBackground"
+                android:padding="25dp"
+                android:src="@drawable/sorcerer1" />
 
             <ImageView
-                android:id="@+id/sanctuary_map"
-                android:layout_width="match_parent"
-                android:layout_height="260dp"
-                android:contentDescription="@string/sanctuary_map"
-                app:srcCompat="@drawable/sanctuary_map" />
-
-            <TextView
-                android:id="@+id/header_the_sin_war"
+                android:id="@+id/diablo1_sorcerer_attributes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="start"
-                android:fontFamily="@font/diablo_light"
-                android:paddingStart="15dp"
-                android:paddingLeft="15dp"
-                android:paddingTop="40dp"
-                android:paddingRight="15dp"
-                android:text="@string/header_the_sin_war"
-                android:textColor="@android:color/white" />
+                android:layout_gravity="center"
+                android:contentDescription="@string/contentDescription_diablo_1_rogue"
+                android:padding="15dp"
+                android:src="@drawable/base_sorcerer_attributes" />
 
             <TextView
-                android:id="@+id/the_sin_war"
+                android:id="@+id/sorcerer_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/formal_436_bt"
                 android:padding="15dp"
-                android:text="@string/the_sin_war"
+                android:text="@string/sorcerer_tab1"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/header_the_reset"
+                android:id="@+id/header_monk_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -139,22 +236,40 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="40dp"
                 android:paddingRight="15dp"
-                android:text="@string/header_the_reset"
+                android:text="@string/header_monk_tab1"
                 android:textColor="@android:color/white" />
 
+            <ImageView
+                android:id="@+id/diablo1_monk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/contentDescription_diablo_1_monk"
+                android:padding="15dp"
+                android:src="@drawable/monk_diablo1" />
+
+            <ImageView
+                android:id="@+id/diablo1_monk_attributes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/contentDescription_diablo_1_monk_attributes"
+                android:padding="15dp"
+                android:src="@drawable/base_monk_attributes" />
+
             <TextView
-                android:id="@+id/the_reset"
+                android:id="@+id/monk_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/formal_436_bt"
                 android:padding="15dp"
-                android:text="@string/the_reset"
+                android:text="@string/monk_tab1"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/header_the_dark_exile"
+                android:id="@+id/header_barbarian_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -163,22 +278,22 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="40dp"
                 android:paddingRight="15dp"
-                android:text="@string/header_the_dark_exile"
+                android:text="@string/header_barbarian_tab1"
                 android:textColor="@android:color/white" />
 
             <TextView
-                android:id="@+id/the_dark_exile"
+                android:id="@+id/barbarian_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/formal_436_bt"
                 android:padding="15dp"
-                android:text="@string/the_dark_exile"
+                android:text="@string/barbarian_tab1"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
 
             <TextView
-                android:id="@+id/header_the_horadrim"
+                android:id="@+id/header_bard_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
@@ -187,17 +302,17 @@
                 android:paddingLeft="15dp"
                 android:paddingTop="40dp"
                 android:paddingRight="15dp"
-                android:text="@string/header_the_horadrim"
+                android:text="@string/header_bard_tab1"
                 android:textColor="@android:color/white" />
 
             <TextView
-                android:id="@+id/the_horadrim"
+                android:id="@+id/bard_tab1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:fontFamily="@font/formal_436_bt"
                 android:padding="15dp"
-                android:text="@string/the_horadrim"
+                android:text="@string/bard_tab1"
                 android:textColor="@android:color/white"
                 android:textSize="14sp" />
         </LinearLayout>

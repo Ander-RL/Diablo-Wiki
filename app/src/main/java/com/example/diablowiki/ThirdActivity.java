@@ -1,11 +1,17 @@
 package com.example.diablowiki;
 
 import android.graphics.Color;
+import android.graphics.text.LineBreaker;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
 import androidx.appcompat.widget.Toolbar;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
@@ -55,5 +61,62 @@ public class ThirdActivity extends AppCompatActivity {
             public void onTabReselected(TabLayout.Tab tab) {
             }
         });
+    }
+
+    public void scrollTo(View view) {
+        String tag = view.getTag().toString();
+        final NestedScrollView scrollview;
+
+        if(tag.equals("tab1")) {scrollview =  findViewById(R.id.scrollviewThirdTab1);}
+        else {scrollview =  findViewById(R.id.scrollviewThirdTab2);}
+
+        TextView textView = getID(view);
+        scrollview.scrollTo((int)textView.getX(),(int)textView.getY());
+    }
+
+    public TextView getID(View view){
+        TextView textView = null;
+        switch(view.getId()){
+            case R.id.button_warrior:
+                textView = findViewById(R.id.header_warrior_tab1);
+                break;
+            case R.id.button_rogue:
+                textView = findViewById(R.id.header_rogue_tab1);
+                break;
+            case R.id.button_sorcerer:
+                textView = findViewById(R.id.header_sorcerer_tab1);
+                break;
+            case R.id.button_monk:
+                textView = findViewById(R.id.header_monk_tab1);
+                break;
+            case R.id.button_barbarian:
+                textView = findViewById(R.id.header_barbarian_tab1);
+                break;
+            case R.id.button_bard:
+                textView = findViewById(R.id.header_bard_tab1);
+                break;
+            case R.id.button_amazon_tab2:
+                textView = findViewById(R.id.header_amazon_tab2);
+                break;
+            case R.id.button_barbarian_tab2:
+                textView = findViewById(R.id.header_barbarian_tab2);
+                break;
+            case R.id.button_necromancer_tab2:
+                textView = findViewById(R.id.header_necromancer_tab2);
+                break;
+            case R.id.button_paladin_tab2:
+                textView = findViewById(R.id.header_paladin_tab2);
+                break;
+            case R.id.button_sorceress_tab2:
+                textView = findViewById(R.id.header_sorceress_tab2);
+                break;
+            case R.id.button_assassin_tab2:
+                textView = findViewById(R.id.header_assassin_tab2);
+                break;
+            case R.id.button_druid_tab2:
+                textView = findViewById(R.id.druid_tab2);
+                break;
+        }
+        return textView;
     }
 }
