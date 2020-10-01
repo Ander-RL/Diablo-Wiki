@@ -192,25 +192,36 @@
         Their war rages in the deepest pits of Hell to this day.
     </string>
     <string name="the_horadrim">
-        Tyrael learns of the Three\'s exile into Sanctuary and mobilizes to stop them.
-        He creates the Horadrim, a collection of the most powerful human Magi, including Jered Cain, Deckard Cain\'s ancestor, and Tal Rasha.
-        Tyrael charges the Horadrim with the capture of the Three Prime Evils, giving them Soulstones to imprison the souls of Diablo and his brothers within.
-        One by one they find and imprison the Primes. Unable to permanently destroy the demons, the Horadrim are forced to instead hide the Soulstones.
-        Their locations are as follows:
+    Tyrael learns of the Three\'s exile into Sanctuary and mobilizes to stop them.
+    He creates the Horadrim, a collection of the most powerful human Magi, including Jered Cain,
+    Deckard Cain\'s ancestor, and Tal Rasha.
+    Tyrael charges the Horadrim with the capture of the Three Prime Evils, giving them Soulstones to
+    imprison the souls of Diablo and his brothers within.
+    One by one they find and imprison the Primes. Unable to permanently destroy the demons, the
+    Horadrim are forced to instead hide the Soulstones.
+    Their locations are as follows:
 
-        \n\n - Baal\’s Soulstone was imprisoned inside a huge tomb constructed with a single purpose: keep him in and others out.
-        Baal had damaged his soulstone during his capture due to his destructive nature.
-        Tal Rasha, knowing that the final shard of Baal\'s broken Soulstone was not great enough to contain the Prime Evil,
-        chose to use his own body as a prison for the Prime. Lodging it into his chest and binding himself to a pillar,
-        Tal Rasha remained in the tomb for centuries, containing the Evil within.
+    \n\n - Baal\’s Soulstone was imprisoned inside a huge tomb constructed with a single purpose:
+    keep him in and others out.
+    Baal had damaged his soulstone during his capture due to his destructive nature.
+    Tal Rasha, knowing that the final shard of Baal\'s broken Soulstone was not great enough to
+    contain the Prime Evil,
+    chose to use his own body as a prison for the Prime. Lodging it into his chest and binding
+    himself to a pillar,
+    Tal Rasha remained in the tomb for centuries, containing the Evil within.
 
-        \n\n - Mephisto\’s Soulstone was sealed inside a temple in Kurast, although he had originally been captured in Aranoch along with Baal.
-        Afraid to imprison two Primes so close to each other, the Horadrim chose to move him.
-        The Zakarum monks were tasked with its protection (ultimately, however, the Soulstone corrupted the monks and Mephisto took a host among them).
+    \n\n - Mephisto\’s Soulstone was sealed inside a temple in Kurast, although he had originally
+    been captured in Aranoch along with Baal.
+    Afraid to imprison two Primes so close to each other, the Horadrim chose to move him.
+    The Zakarum monks were tasked with its protection (ultimately, however, the Soulstone corrupted
+    the monks and Mephisto took a host among them).
 
-        \n\nDiablo had fled to the west and continued to evade capture for several decades after his brothers\' capture.
-        Eventually he was captured near today\'s Westmarch, and the Horadrim built a cathedral above his tomb to stand guard.
-        As time passed by however, the Horadrim fell apart, and no one else remembered the evil imprisoned within.
+    \n\nDiablo had fled to the west and continued to evade capture for several decades after his
+    brothers\' capture.
+    Eventually he was captured near today\'s Westmarch, and the Horadrim built a cathedral above his
+    tomb to stand guard.
+    As time passed by however, the Horadrim fell apart, and no one else remembered the evil
+    imprisoned within.
     </string>
 
     <!-- /////////////////////////// CLASSES /////////////////////////// -->
@@ -231,7 +242,7 @@
         are for that very reason especially difficult. Following them might result in aggravating more enemies to attack the player(s).
         Although the modification which gives less Light Radius is intended to be a curse, it proves very beneficial to warriors nonetheless.
         If one chooses to go with a lower light radius, the Warrior will aggravate fewer monsters.
-    </string>
+        </string>
     <string name="rogue_tab1">
         The Rogue\'s Strength and Magic attributes are intermediate between the Warrior and the Sorcerer,
         but with a Vitality being a bit lower than that of a Warrior and on par with a Sorcerer\'s,
@@ -247,13 +258,13 @@
         if a Warrior is attacking, then the Rogue has to accurately target the monster to avoid hitting the Warrior.
         The only saving grace a Warrior has from accidental damage is his Shield; since there is not a hard cap on Blocking,
         if he were to have enough Dexterity he would be able to block the most of a Rogue\'s arrows, if not every arrow she fires as long as he is immobile.
-    </string>
+        </string>
     <string name="sorcerer_tab1">
         Sorcerers are a playable class in Diablo I. They are the game\'s most effective spell casters.
         Since they have the highest maximum Magic out of all the character classes, they can effectively use the high-end spells.
         These high-end spells require more than just a level-one proficiency.
         With the sorcerer\'s naturally high Mana, the class can use spells repeatedly, and the class has the highest casting rate out of any other classes.
-    </string>
+        </string>
     <string name="monk_tab1">
         The Monk is a powerful unarmed combatant. They are strong and dextrous.
         Monks have some skill with fighting with staves, and though it does less damage than their bare hands,
@@ -269,12 +280,12 @@
         This necessitated a tiring search by the player to find the tiny item on the ground.
         The Search spell highlighted not only the item on the ground, but also all items that had fallen on the map.
         Other classes could learn Search as a spell.
-    </string>
+        </string>
     <string name="barbarian_tab1">
         The Hellfire Barbarian can only be played after editing the Command.txt file in the Hellfire folder, and only in the 1.01 patch.
         He is similar to the Warrior class and uses the same graphics, but he has unequaled prowess in melee combat, even when reduced to the same tactics as the Warrior,
         at the costs of no innate magic power and reduced chance to-hit.
-    </string>
+        </string>
     <string name="bard_tab1">
         The Bard is one of the two unfinished classes in Diablo: Hellfire, the other being the Barbarian.
         She could only be played after editing the Command.txt file in the Hellfire folder.
@@ -310,7 +321,8 @@
         \n\nHowever, the saying \'jack of all trades, masters of none\' certainly applies to a Bard: a Warrior, Monk, or Barbarian will always outdamage her in melee combat,
         the Rogue bests her in ranged combat, and the Sorcerer is more powerful in spell combat.
         Their strength lies in their ability to adapt: if a Bard cannot adapt, death and/or failure is more likely.
-    </string>
+        </string>
+
     <string name="amazon_tab2">
         The Amazon is a powerful woman warrior of the Askari, who belongs to nomadic bands who roam the plains near the South Sea.
         The wandering of these groups often brings them into conflict with other peoples, so the Amazon is accustomed to fighting to defend her own.
@@ -391,7 +403,6 @@
         at least 500 high-ranking warriors watch over and guide much of Druidic culture.
         Druids are willing to do anything to protect their way of life, including risking their own humanity by awakening the beast within.
     </string>
-
 
 
     <!-- /////////////////////////// NAV DRAWER /////////////////////////// -->
@@ -503,5 +514,70 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="third_tab_title_1">Diablo I</string>
     <string name="third_tab_title_2">Diablo II</string>
+
+    <!-- //////////////////////// RECYCLERVIEW LAYOUT PLACE HOLDERS ////////////////////// -->
+
+    <string name="weapon_name">Weapon Name</string>
+    <string name="weapon_damage">Damage</string>
+    <string name="weapon_durability">Durability</string>
+    <string name="weapon_requirements">Requirements</string>
+    <string name="weapon_price">Price</string>
+    <string name="weapon_quality">Quality Level</string>
+
+    <!-- //////////////////////// RECYCLERVIEW LAYOUT WEAPONS ////////////////////// -->
+
+    <string-array name="weapon">
+        <item>Small Axe</item>
+        <item>Axe</item>
+        <item>Large Axe</item>
+        <item>Broad Axe</item>
+        <item>Battle Axe</item>
+        <item>Great Axe</item>
+    </string-array>
+
+    <string-array name="damage">
+        <item>Damage: 2–10</item>
+        <item>Damage: 4–12</item>
+        <item>Damage: 6–16</item>
+        <item>Damage: 8–20</item>
+        <item>Damage: 10–25</item>
+        <item>Damage: 12–30</item>
+    </string-array>
+
+    <string-array name="durability">
+        <item>Durability: 24</item>
+        <item>Durability: 32</item>
+        <item>Durability: 40</item>
+        <item>Durability: 50</item>
+        <item>Durability: 60</item>
+        <item>Durability: 75</item>
+    </string-array>
+
+    <string-array name="requirements">
+        <item>Requirements: None</item>
+        <item>Requirements: 22</item>
+        <item>Requirements: 30 Strength</item>
+        <item>Requirements: 50 Strength</item>
+        <item>Requirements: 65 Strength</item>
+        <item>Requirements: 80 Strength</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>Price: 150</item>
+        <item>Price: 450</item>
+        <item>Price: 750</item>
+        <item>Price: 1000</item>
+        <item>Price: 1500</item>
+        <item>Price: 2500</item>
+    </string-array>
+
+    <string-array name="quality">
+        <item>Quality Level: 2</item>
+        <item>Quality Level: 4</item>
+        <item>Quality Level: 6</item>
+        <item>Quality Level: 8</item>
+        <item>Quality Level: 10</item>
+        <item>Quality Level: 12</item>
+    </string-array>
 
 </resources>

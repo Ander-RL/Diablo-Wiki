@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_dark"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/weapon_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:src="@drawable/small_axe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weapon_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/diablo_heavy"
+        android:text="@string/weapon_name"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/weapon_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/weapon_damage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/formal_436_bt"
+        android:text="@string/weapon_damage"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/weapon_image"
+        app:layout_constraintTop_toBottomOf="@+id/weapon_name" />
+
+    <TextView
+        android:id="@+id/weapon_durability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/formal_436_bt"
+        android:text="@string/weapon_durability"
+        android:textColor="@android:color/white"
+        app:layout_constraintBaseline_toBaselineOf="@+id/weapon_damage"
+        app:layout_constraintStart_toStartOf="@+id/guideline" />
+
+    <TextView
+        android:id="@+id/weapon_requirements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/formal_436_bt"
+        android:text="@string/weapon_requirements"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/weapon_image"
+        app:layout_constraintTop_toBottomOf="@+id/weapon_damage" />
+
+    <TextView
+        android:id="@+id/weapon_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/formal_436_bt"
+        android:text="@string/weapon_price"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/weapon_durability" />
+
+    <TextView
+        android:id="@+id/weapon_quality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/formal_436_bt"
+        android:text="@string/weapon_quality"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/weapon_image"
+        app:layout_constraintTop_toBottomOf="@+id/weapon_requirements" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="273dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

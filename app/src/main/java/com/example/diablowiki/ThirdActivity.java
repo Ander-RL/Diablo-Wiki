@@ -1,8 +1,5 @@
 package com.example.diablowiki;
 
-import android.graphics.Color;
-import android.graphics.text.LineBreaker;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;

@@ -101,8 +101,8 @@ public class FirstActivity extends AppCompatActivity implements NavigationView.O
                 startActivity(intentThird);
                 return true;
             case R.id.nav_items:
-                drawer.closeDrawer(GravityCompat.START);
-                displayToast(getString(R.string.place_holder));
+                Intent intentFourth = new Intent(FirstActivity.this, FourthActivity.class);
+                startActivity(intentFourth);
                 return true;
             case R.id.nav_talents:
                 drawer.closeDrawer(GravityCompat.START);
