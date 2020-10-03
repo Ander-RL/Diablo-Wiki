@@ -1,19 +1,31 @@
 package com.example.diablowiki;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+
 public class FourthActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
 
     String[] weapon, damage, durability, requirements, price, quality;
-    int[] images = {R.drawable.small_axe, R.drawable.axe, R.drawable.large_axe, R.drawable.broad_axe, R.drawable.battle_axe, R.drawable.great_axe,};
+    TypedArray imagesArray;
+    int[] images;
+    ArrayList selectedItems;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -32,6 +44,13 @@ public class FourthActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recyclerView_fourth);
 
+        imagesArray = getResources().obtainTypedArray(R.array.weapon_image);
+        int[] images = new int[imagesArray.length()];
+
+        for (int i = 0; i < imagesArray.length(); i++) {
+            images[i] = imagesArray.getResourceId(i, 0);
+        }
+
         weapon = getResources().getStringArray(R.array.weapon);
         damage = getResources().getStringArray(R.array.damage);
         durability = getResources().getStringArray(R.array.durability);
@@ -43,5 +62,23 @@ public class FourthActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_fourthactivity, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        FourthActivityDialogFragment dialog = new FourthActivityDialogFragment();
+        dialog.show(getSupportFragmentManager(), "Alert Dialog Fragment");
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
     }
 }

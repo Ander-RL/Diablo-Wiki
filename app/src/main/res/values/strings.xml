@@ -485,6 +485,19 @@
     <string name="child_activity_second">Second Activity</string>
     <string name="first_home_activity">First/Home Activity</string>
 
+    <!-- /////////////////////////// MENUS /////////////////////////// -->
+
+    <string name="menu_filter">Filter</string>
+    <string name="menu_filter_dialog_title">Diablo Weapons Filter</string>
+
+    <string-array name="menu_filter_dialog_options">
+        <item>Diablo 1</item>
+        <item>Diablo 2</item>
+    </string-array>
+
+    <string name="menu_filter_dialog_ok">Ok</string>
+    <string name="menu_filter_dialog_cancel">Cancel</string>
+
     <!-- //////////////////////// CONTENT DESCRIPTION ///////////////////// -->
 
     <string name="go_top_button">Go to the top button</string>
@@ -526,58 +539,151 @@
 
     <!-- //////////////////////// RECYCLERVIEW LAYOUT WEAPONS ////////////////////// -->
 
+    <string-array name="weapon_image">
+        <!-- Diablo 1 -->
+        <item>@drawable/small_axe</item>
+        <item>@drawable/axe</item>
+        <item>@drawable/large_axe</item>
+        <item>@drawable/broad_axe</item>
+        <item>@drawable/battle_axe</item>
+        <item>@drawable/great_axe</item>
+        <!-- Diablo 2 -->
+        <item>@drawable/hand_axe_d2</item>
+        <item>@drawable/axe_d2</item>
+        <item>@drawable/double_axe_d2</item>
+        <item>@drawable/military_pick_d2</item>
+        <item>@drawable/war_axe_d2</item>
+        <item>@drawable/large_axe_d2</item>
+        <item>@drawable/broad_axe_d2</item>
+        <item>@drawable/battle_axe_d2</item>
+        <item>@drawable/great_axe_d2</item>
+        <item>@drawable/giant_axe_d2</item>
+    </string-array>
+
     <string-array name="weapon">
-        <item>Small Axe</item>
-        <item>Axe</item>
-        <item>Large Axe</item>
-        <item>Broad Axe</item>
-        <item>Battle Axe</item>
-        <item>Great Axe</item>
+        <!-- Diablo 1 -->
+        <item name="axe_diablo_1">Small Axe</item>
+        <item name="axe_diablo_1">Axe</item>
+        <item name="axe_diablo_1">Large Axe</item>
+        <item name="axe_diablo_1">Broad Axe</item>
+        <item name="axe_diablo_1">Battle Axe</item>
+        <item name="axe_diablo_1">Great Axe</item>
+        <!-- Diablo 2 -->
+        <item name="axe_diablo_2">Hand Axe</item>
+        <item name="axe_diablo_2">Axe</item>
+        <item name="axe_diablo_2">Double Axe</item>
+        <item name="axe_diablo_2">Military Pick</item>
+        <item name="axe_diablo_2">War Axe</item>
+        <item name="axe_diablo_2">Large Axe</item>
+        <item name="axe_diablo_2">Broad Axe</item>
+        <item name="axe_diablo_2">Battle Axe</item>
+        <item name="axe_diablo_2">Great Axe</item>
+        <item name="axe_diablo_2">Giant Axe</item>
     </string-array>
 
     <string-array name="damage">
-        <item>Damage: 2–10</item>
-        <item>Damage: 4–12</item>
-        <item>Damage: 6–16</item>
-        <item>Damage: 8–20</item>
-        <item>Damage: 10–25</item>
-        <item>Damage: 12–30</item>
+        <!-- Diablo 1 -->
+        <item name="axe_diablo_1">Damage: 2–10</item>
+        <item name="axe_diablo_1">Damage: 4–12</item>
+        <item name="axe_diablo_1">Damage: 6–16</item>
+        <item name="axe_diablo_1">Damage: 8–20</item>
+        <item name="axe_diablo_1">Damage: 10–25</item>
+        <item name="axe_diablo_1">Damage: 12–30</item>
+        <!-- Diablo 2 -->
+        <item name="axe_diablo_2">Damage: 3–6</item>
+        <item name="axe_diablo_2">Damage: 4–11</item>
+        <item name="axe_diablo_2">Damage: 5–13</item>
+        <item name="axe_diablo_2">Damage: 7–11</item>
+        <item name="axe_diablo_2">Damage: 10–18</item>
+        <item name="axe_diablo_2">Damage: 6–13</item>
+        <item name="axe_diablo_2">Damage: 10–18</item>
+        <item name="axe_diablo_2">Damage: 12–32</item>
+        <item name="axe_diablo_2">Damage: 9–30</item>
+        <item name="axe_diablo_2">Damage: 22–45</item>
     </string-array>
 
     <string-array name="durability">
-        <item>Durability: 24</item>
-        <item>Durability: 32</item>
-        <item>Durability: 40</item>
-        <item>Durability: 50</item>
-        <item>Durability: 60</item>
-        <item>Durability: 75</item>
+        <!-- Diablo 1 -->
+        <item name="axe_diablo_1">Durability: 24</item>
+        <item name="axe_diablo_1">Durability: 32</item>
+        <item name="axe_diablo_1">Durability: 40</item>
+        <item name="axe_diablo_1">Durability: 50</item>
+        <item name="axe_diablo_1">Durability: 60</item>
+        <item name="axe_diablo_1">Durability: 75</item>
+        <!-- Diablo 2 -->
+        <item name="axe_diablo_2">Durability: 28</item>
+        <item name="axe_diablo_2">Durability: 24</item>
+        <item name="axe_diablo_2">Durability: 24</item>
+        <item name="axe_diablo_2">Durability: 26</item>
+        <item name="axe_diablo_2">Durability: 26</item>
+        <item name="axe_diablo_2">Durability: 30</item>
+        <item name="axe_diablo_2">Durability: 35</item>
+        <item name="axe_diablo_2">Durability: 40</item>
+        <item name="axe_diablo_2">Durability: 50</item>
+        <item name="axe_diablo_2">Durability: 50</item>
     </string-array>
 
     <string-array name="requirements">
-        <item>Requirements: None</item>
-        <item>Requirements: 22</item>
-        <item>Requirements: 30 Strength</item>
-        <item>Requirements: 50 Strength</item>
-        <item>Requirements: 65 Strength</item>
-        <item>Requirements: 80 Strength</item>
+        <!-- Diablo 1 -->
+        <item name="axe_diablo_1">Requirements: None</item>
+        <item name="axe_diablo_1">Requirements: 22</item>
+        <item name="axe_diablo_1">Requirements: 30 Strength</item>
+        <item name="axe_diablo_1">Requirements: 50 Strength</item>
+        <item name="axe_diablo_1">Requirements: 65 Strength</item>
+        <item name="axe_diablo_1">Requirements: 80 Strength</item>
+        <!-- Diablo 2 -->
+        <item name="axe_diablo_2">Requirements: None</item>
+        <item name="axe_diablo_2">Requirements: 32 Strength</item>
+        <item name="axe_diablo_2">Requirements: 43 Strength</item>
+        <item name="axe_diablo_2">Requirements: 49 Strength</item>
+        <item name="axe_diablo_2">Requirements: 67 Strength</item>
+        <item name="axe_diablo_2">Requirements: 35 Strength</item>
+        <item name="axe_diablo_2">Requirements: 48 Strength</item>
+        <item name="axe_diablo_2">Requirements: 54 Strength</item>
+        <item name="axe_diablo_2">Requirements: 63 Strength</item>
+        <item name="axe_diablo_2">Requirements: 70 Strength</item>
     </string-array>
 
     <string-array name="price">
-        <item>Price: 150</item>
-        <item>Price: 450</item>
-        <item>Price: 750</item>
-        <item>Price: 1000</item>
-        <item>Price: 1500</item>
-        <item>Price: 2500</item>
+        <!-- Diablo 1 -->
+        <item name="axe_diablo_1">Price: 150</item>
+        <item name="axe_diablo_1">Price: 450</item>
+        <item name="axe_diablo_1">Price: 750</item>
+        <item name="axe_diablo_1">Price: 1000</item>
+        <item name="axe_diablo_1">Price: 1500</item>
+        <item name="axe_diablo_1">Price: 2500</item>
+        <!-- Diablo 2 -->
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
+        <item name="axe_diablo_2">Price: -</item>
     </string-array>
 
     <string-array name="quality">
-        <item>Quality Level: 2</item>
-        <item>Quality Level: 4</item>
-        <item>Quality Level: 6</item>
-        <item>Quality Level: 8</item>
-        <item>Quality Level: 10</item>
-        <item>Quality Level: 12</item>
+        <!-- Diablo 1 -->
+        <item name="axe_diablo_1">Quality Level: 2</item>
+        <item name="axe_diablo_1">Quality Level: 4</item>
+        <item name="axe_diablo_1">Quality Level: 6</item>
+        <item name="axe_diablo_1">Quality Level: 8</item>
+        <item name="axe_diablo_1">Quality Level: 10</item>
+        <item name="axe_diablo_1">Quality Level: 12</item>
+        <!-- Diablo 2 -->
+        <item name="axe_diablo_2">Quality Level: 3</item>
+        <item name="axe_diablo_2">Quality Level: 7</item>
+        <item name="axe_diablo_2">Quality Level: 13</item>
+        <item name="axe_diablo_2">Quality Level: 19</item>
+        <item name="axe_diablo_2">Quality Level: 25</item>
+        <item name="axe_diablo_2">Quality Level: 6</item>
+        <item name="axe_diablo_2">Quality Level: 12</item>
+        <item name="axe_diablo_2">Quality Level: 17</item>
+        <item name="axe_diablo_2">Quality Level: 23</item>
+        <item name="axe_diablo_2">Quality Level: 27</item>
     </string-array>
 
 </resources>

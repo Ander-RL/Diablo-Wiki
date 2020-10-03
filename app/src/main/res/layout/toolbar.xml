@@ -9,4 +9,5 @@
     android:gravity="center"
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     app:layout_scrollFlags="scroll|enterAlways"
-    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+    app:popupTheme="@style/AppTheme.ToolbarFront"
+    app:theme="@style/AppTheme.ToolbarFront"/>
